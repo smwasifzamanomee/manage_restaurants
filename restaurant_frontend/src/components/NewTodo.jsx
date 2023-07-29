@@ -11,6 +11,7 @@ const NewTodo = (props) => {
         onHandleTodo(
             todo
         )
+        setTodo("")
     }
     return (
         <form onSubmit={handleSubmit}>
