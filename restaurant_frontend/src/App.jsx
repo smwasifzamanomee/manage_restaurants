@@ -1,10 +1,9 @@
-import Menu from "./components/Menu";
-import Login from "./components/login/Login";
+import Home from "./components/Home";
 
 export default function App() {
   return (
     <div>
-      <Login/>
+      <Home/>
     </div>
   )
 }
